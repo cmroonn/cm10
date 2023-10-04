@@ -465,8 +465,8 @@ a.basic-btn {
   .video-reviews__swiper {
     padding-bottom: 27.7777777778vw;
     max-width: unset;
-    padding-left: calc(26 / 360 * 100vw);
-    padding-right: calc(26 / 360 * 100vw);
+    padding-left: calc(40 / 360 * 100vw);
+    padding-right: calc(40 / 360 * 100vw);
   }
   .video-reviews__swiper video {
     height: 111.1111111111vw;
@@ -3070,7 +3070,7 @@ a.basic-btn {
   font-style: italic;
   color: #fff;
   line-height: 140%;
-  font-weight: 300;
+  font-weight: 400;
 }
 @media (max-width: 500px) {
   .demand__message__plate__text {
@@ -3141,7 +3141,8 @@ a.basic-btn {
 .demand__subtitle {
   font-size: 2.875vw;
   position: relative;
-  padding-top: 2.3125vw;
+  padding-top: 6.3125vw;
+  margin-top: calc(110 / 1600 * 100vw);
 }
 .demand__subtitle:before {
   content: "";
@@ -3232,6 +3233,12 @@ a.basic-btn {
 
 .demand__subtitle-2 {
   margin-top: 5vw;
+}
+
+.demand__subtitle-2:before {
+  right: unset;
+  left: 0;
+  transform: scaleX(-1);
 }
 @media (max-width: 500px) {
   .demand__subtitle-2 {
@@ -4924,7 +4931,7 @@ a.basic-btn {
   box-shadow: 0px 2px 60px rgba(66, 116, 192, 0.2);
   background-color: #fff;
   max-width: 14.375vw;
-  padding-bottom: 2.1875vw;
+  padding-bottom: 1.1875vw;
   position: absolute;
   width: 100%;
 }
@@ -4940,7 +4947,7 @@ a.basic-btn {
 .skills__item.skills__item-1 {
   left: 7vw;
   top: 0;
-  height: 13.75vw;
+  height: 12.75vw;
 }
 .skills__item.skills__item-1 .skills__item__head {
   background-color: #4bc78b;
@@ -6723,7 +6730,7 @@ li.creator__text__name {
 }
 
 .credit__item__text {
-  padding: 2.1875vw 1.25vw 1.25vw;
+  padding: 2.1875vw 0.9vw 1.25vw 1.25vw;
 }
 .credit__item__text h4 {
   margin: 0 0 0.5625vw;
@@ -12408,6 +12415,7 @@ li.diplomas__list__1:before {
   scrollbar-width: none;
   padding-bottom: calc(60 / 1600 * 100vw);
   cursor: grab;
+  padding-right: calc(30 / 1600 * 100vw);
 }
 
 .creative__content::-webkit-scrollbar {
@@ -12606,7 +12614,6 @@ li.diplomas__list__1:before {
   width: 100%;
   height: calc(330 / 1600 * 100vw);
   display: block;
-  pointer-events: none;
 }
 
 .smm-banners__banner img {
@@ -12713,6 +12720,7 @@ li.diplomas__list__1:before {
 
 .results-10 {
   background-color: #fff !important;
+  padding-top: 3.4375vw;
 }
 
 .results-10 .results__item {
@@ -13034,5 +13042,64 @@ li.diplomas__list__1:before {
 
     left: calc(30 / 360 * 100vw);
     bottom: calc(248 / 360 * 100vw);
+  }
+
+  .program-10 .get-access {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .course-content__item__text span {
+    display: block;
+  }
+
+  .demand__stats__pic-3 {
+    width: calc(360 / 360 * 100vw);
+    margin-left: calc(-10 / 360 * 100vw);
+  }
+
+  .demand__message {
+    margin-bottom: 0;
+  }
+
+  .demand__subtitle {
+    padding-top: 16.5555555556vw;
+    margin-top: calc(-30 / 360 * 100vw);
+    margin-bottom: 3.8333333333000006vw;
+  }
+
+  .demand__subtitle:before {
+    right: unset;
+    left: 0;
+    transform: scaleX(-1);
+  }
+
+  .demand__stats-2__pic {
+    margin-top: -6.666666666699999vw;
+  }
+
+  .demand__subtitle-2:before {
+    transform: scaleX(1);
+    right: calc(-15 / 360 * 100vw);
+    left: unset;
+  }
+
+  .services-2__content__item-mob {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    display: flex;
+    grid-row: auto;
+    justify-content: center;
+  }
+
+  .services-2__content__item-mob img {
+    width: calc(60 / 360 * 100vw);
+    height: calc(60 / 360 * 100vw);
+  }
+
+  .services-2__content__item-mob-2 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    margin-left: calc(-60 / 360 * 100vw);
   }
 }
