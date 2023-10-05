@@ -12946,6 +12946,11 @@ li.diplomas__list__1:before {
   bottom: calc(18 / 1600 * 100vw);
 }
 
+.tarif-10 .get-access {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (max-width: 500px) {
   .program__module__item {
     padding: calc(35 / 360 * 100vw) calc(10 / 360 * 100vw)
@@ -13045,10 +13050,9 @@ li.diplomas__list__1:before {
   }
 
   .tarif-10 .get-access {
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: calc(-10 / 360 * 100vw);
+    margin-right: 0;
   }
-
   .course-content__item__text span {
     display: block;
   }
