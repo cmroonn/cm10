@@ -13106,4 +13106,8 @@ li.diplomas__list__1:before {
     grid-column-end: 5;
     margin-left: calc(-60 / 360 * 100vw);
   }
+
+  .services-2__content img {
+    border-radius: calc(10 / 360 * 100vw);
+  }
 }
