@@ -4947,7 +4947,7 @@ a.basic-btn {
 .skills__item.skills__item-1 {
   left: 7vw;
   top: 0;
-  height: 12.75vw;
+  height: 12vw;
 }
 .skills__item.skills__item-1 .skills__item__head {
   background-color: #4bc78b;
@@ -13044,7 +13044,7 @@ li.diplomas__list__1:before {
     bottom: calc(248 / 360 * 100vw);
   }
 
-  .program-10 .get-access {
+  .tarif-10 .get-access {
     margin-left: auto;
     margin-right: auto;
   }
